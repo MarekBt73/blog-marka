@@ -54,7 +54,7 @@ const IndexPage = () => (
   <GlobalStyle/>
   <StyledWrapper className="roman">
     <H1>Blog- Marka</H1>
-    <Pstyle>Opowiadam w wykończeniach wnetrz</Pstyle>
+    <Pstyle>Opowiadam o wykończeniach wnetrz</Pstyle>
   </StyledWrapper>
   </>
 )
