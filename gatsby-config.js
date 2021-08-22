@@ -4,12 +4,12 @@ module.exports = {
     title: "Blog Marka ",
   },
   plugins: [
-    {
-      resolve: "gatsby-source-wordpress",
-      options: {
-        url: "https://glazurnik-malarz.pl/",
-      },
-    },
+    //{
+     // resolve: "gatsby-source-wordpress",
+    //  options: {
+    //    url: "https://glazurnik-malarz.pl/",
+    //  },
+   // },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
