@@ -1,9 +1,24 @@
 import React from 'react'
+import styled from 'styled-components';
+
+const StyledWrapper = styled.div`
+
+@media all and (max-width: 760px) and (min-width: 320px){
+max-width:480;
+height: 100%;
+background-color: #999999;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+padding: 25px;
+}
+`
 
 
 const IndexPage = () => {
 return(
-  <div>
+  <StyledWrapper>
 
 <h1>
   Blog Marka
@@ -12,7 +27,7 @@ return(
   Witam na blogu o układaniu płytek, malowaniu i remontach mieszkań.
 </p>
 
-  </div>
+  </StyledWrapper>
 )
 }
 
